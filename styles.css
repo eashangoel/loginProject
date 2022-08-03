@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+
+.backgroundImg{
+    position: relative;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+}
+.companyLogo{
+    width:120px;
+    height:120px;
+    top: 0;
+    left:0;
+}
+.right{
+    width:70%;
+}
+.layoverContent{
+    position: absolute;
+   top: 30%;
+   left: 0px; 
+   width:97%;
+   padding: 5px;
+   background-color:rgba(59, 63, 51, 0.75);
+   display: flex;
+   justify-content: center;
+}
+.left {
+    position: relative;
+    top: 0;
+    left: 0;
+    width:30%;
+    height:100%;
+  }
+.formHeader{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left:2rem;
+    padding-top: 1rem;
+}
+.innerElement{
+    border-radius: 3px;
+    border: 0.5px solid lightgray;
+    height: 1rem;
+}
+.upperDiv{
+    font-weight: 700;
+    height:33%;
+    display: flex;
+}
+.displayText{
+    margin-bottom: 0vh;
+    align-self: flex-end;
+    margin: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.formDiv{
+    height:33%;
+    background-color: white;
+    width:100%;
+    box-shadow: 0px 6px 5px lightgray;  
+}
+.lowerDiv{
+    height:33%;
+    display: flex;
+    flex-direction: column;
+}
+.submitButton{
+    margin:2rem;
+    margin-bottom: 0px;
+    background-color: #596D48;
+    height: 3rem;
+    width:12rem;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.formElement{
+    display:flex;
+    flex-direction: column;
+    gap: 2px;
+    width:40%;
+    margin:1rem;
+}
+.haveAnAccBar{
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+.formElements{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width:60%;
+    margin-left:1rem;
+    margin-right:8rem;
+    height: 80%;
+}
+label{
+    font-size: 0.75rem;
+}
+.fullDiv{
+    width:80%;
+    height:100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(182, 182, 182, 0.18);
+}
+a{
+    color:#596D48;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.8 rem;
+}
+.innerElement:focus{
+    border: 0.1px solid blue;
+    box-shadow: 4px 8px 5px lightgray;  
+}
