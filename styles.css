@@ -89,7 +89,8 @@ body{
     flex-direction: column;
     gap: 2px;
     width:40%;
-    margin:1rem;
+    margin-top:1rem;
+    margin-left: 1rem;
 }
 .haveAnAccBar{
     display:flex;
@@ -126,6 +127,14 @@ a{
     font-size: 0.8 rem;
 }
 .innerElement:focus{
+    outline: null;
     border: 0.1px solid blue;
     box-shadow: 4px 8px 5px lightgray;  
+}
+#tryAgain{
+    color: red;
+    font-size: 0.2rem;
+    margin-top: 0px;
+    margin-left:2rem;
+    visibility: hidden;
 }

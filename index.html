@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="javascript.js"></script>
 </head>
 <body>
 <div class="fullDiv">
@@ -51,9 +50,12 @@
                             <input type="password" name="confirmPassword" id="confirmPassword" class="innerElement">
                         </div>
                 </div>
+                <div class="extraElement">
+                    <label for="tryAgain" id="tryAgain">*Passwords do not match</label>
+                </div>
             </div>
             <div class="lowerDiv">
-                <button type="submit" class="submitButton">Create Account</button>     
+                <button type="submit" class="submitButton" onclick="myFunction();">Create Account</button>     
                 <div class="haveAnAccBar"> 
                     <p>Already have an account?</p>
                     <a href="www.google.com">Log in</a>
@@ -63,3 +65,4 @@
 </div>
 </body>
 </html>
+<script src="javascript.js"></script>
